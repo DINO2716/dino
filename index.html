@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Shop Rizki Store</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#!">Rizki Store</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!"></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#!">All Products</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="#!">Popular Items</a></li>
+                                <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-dark" type="submit">
+                            <i class="bi-cart-fill me-1"></i>
+                            Keranjang
+                            <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-dark py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center text-white">
+                    <img src="data:image/jpeg;base64,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">
+                    <h1 class="display-4 fw-bolder">Rizki Store</h1>
+                    <p class="lead fw-normal text-white-50 mb-0">Selamat datang di Rizki Store</p>
+                </div>
+            </div>
+        </header>
+        <!-- Section-->
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://down-id.img.susercontent.com/file/id-11134201-7rash-m5tiboq3pmpsf4@resize_w450_nl.webp" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Erigo T-Shirt Yukino Army - Kaos Unisex</h5>
+                                    <!-- Product price-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    Rp85.000
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://wa.me/+628811281317" target="_blank">Pesan Sekarang</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://down-id.img.susercontent.com/file/id-11134201-7ras9-m5tiblfwilog76@resize_w450_nl.webp" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Erigo T-Shirt Yahiko Black - Kaos Unisex</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                Rp84.000
+                            </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://wa.me/+628811281317" target="_blank">Pesan Sekarang</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://down-id.img.susercontent.com/file/id-11134201-7rasj-m5tiblieey4g16@resize_w450_nl.webp" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Erigo T-Shirt Yagate Black - Kaos Unisex</h5>
+                                      <!-- Product reviews-->
+                                      <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                 Rp94.000
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://shopee.co.id/Erigo-T-Shirt-Yagate-Black-Kaos-Unisex-i.30203584.27054430003?sp_atk=1cce21e9-86bf-4deb-a61c-d72325d77c58">Pesan Sekarang</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://down-id.img.susercontent.com/file/id-11134201-7rasd-m5tiboqnotj65d@resize_w450_nl.webp" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Erigo T-Shirt Yatsuki Black - Kaos Unisex</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    Rp88.000
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://shopee.co.id/Erigo-T-Shirt-Yatsuki-Black-Kaos-Unisex-i.30203584.24533037638?sp_atk=88c639a4-e878-4bc8-b8be-b6e08354a192">Pesan Sekarang</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://down-id.img.susercontent.com/file/id-11134201-7rasj-m4zvoxzsgqnc0e@resize_w450_nl.webp" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Erigo Chino Pants Mika Grey - Celana Panjang Chino Unisex</h5>
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                     Rp156.000
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://shopee.co.id/Erigo-Chino-Pants-Mika-Grey-Celana-Panjang-Chino-Unisex-i.30203584.6701624725?sp_atk=1515a42d-f33e-40e7-9c83-073773bd660a">Pesan Sekarang</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://down-id.img.susercontent.com/file/id-11134201-7rasd-m4zvrry3b3t2f9.webp" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Erigo Chino Pants Paul Light Grey - Celana Panjang Chino Unisex</h5>
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    Rp165.000
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://shopee.co.id/Erigo-Chino-Pants-Paul-Light-Grey-Celana-Panjang-Chino-Unisex-i.30203584.5841064209?sp_atk=5bb11ad5-8482-4de5-92a6-6e71a74c6525">Pesan Sekarang</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://down-id.img.susercontent.com/file/id-11134201-7rash-m4zvzp3fzn0g78@resize_w450_nl.webp" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Erigo Chino Pants James Army - Celana Panjang Chino Unisex</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    Rp170.000
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://shopee.co.id/Erigo-Chino-Pants-James-Army-Celana-Panjang-Chino-Unisex-i.30203584.2732880571?sp_atk=cd8091ba-f20f-48e8-a7ad-58c26ecea1ed">Pesan Sekarang</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://down-id.img.susercontent.com/file/id-11134201-7rase-m4zvzqec2z9if8@resize_w450_nl.webp" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Erigo Chino Pants Sirius Black - Celana Panjang Chino Unisex</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    Rp192.000
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://shopee.co.id/Erigo-Chino-Pants-Sirius-Black-Celana-Panjang-Chino-Unisex-i.30203584.2698631224?sp_atk=cd72abe5-ff1d-4102-b2d6-7830d7c28dcd">Pesan Sekarang</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Terimakasih Telah Berkunjung Ke Web Rizki Store</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
